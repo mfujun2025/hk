@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://xn--hlr9m.xn--fiqs8s/sitemap.xml
