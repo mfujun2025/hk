@@ -98,6 +98,22 @@ img { max-width: 100%; }
 .ymobile .ico { background: linear-gradient(135deg,#00a8ff,#0066ff); }
 .yunicom .ico { background: linear-gradient(135deg,#ff5b4d,#d9001f); }
 .ytelecom .ico { background: linear-gradient(135deg,#00b0a8,#0066cc); }
+.card-hot {
+  grid-column: 1 / -1;
+  background: linear-gradient(135deg,#fff7ed,#fff);
+  border-color: #ff9f43;
+  position: relative;
+  padding: 20px 22px;
+}
+.card-hot::before {
+  content: "HOT";
+  position: absolute; top: -10px; left: 18px;
+  background: linear-gradient(135deg,#ff6b35,#e8430c);
+  color: #fff; font-size: 11px; font-weight: 700;
+  padding: 3px 10px; border-radius: 8px; letter-spacing: .5px;
+}
+.card-hot .ico { background: linear-gradient(135deg,#ff9f43,#e8430c); }
+.card-hot .go { color: #e8430c; }
 .vcard .ico { background: linear-gradient(135deg,#7c5cff,#4a3ee0); }
 .toolcard .ico { background: linear-gradient(135deg,#00b8d9,#0a6cff); }
 
